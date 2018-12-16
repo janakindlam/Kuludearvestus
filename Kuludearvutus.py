@@ -1,6 +1,5 @@
 # Programm võimaldab kasutajal sisestada jooksvalt oma kulutusi, talletada need tekstifaili
 # Saada peale kulude sisestamist teada kulutatud summa kokkuarvutatult
-# © Jana Kindlam 2018
 
 from easygui import *
 import sys  
