@@ -5,8 +5,8 @@ from easygui import *
 import sys  
 import re
 
-
-# Eeldame, et kasutaja sisestab kulu liigi ja kulu täisarvuna, nt "Vesi 13"
+# Eeldame, et kasutaja sisestab kulu liigi ja kulu, nt "Vesi 13" või "Vesi 12.82"
+# Koma asemel kasutada punkti; suured või väikesed tähed midagi ei määra
 # Kulu liik on vajalik eelkõige kasutaja jaoks, kui ta soovib hiljem tekstifaili kasutada
 
 while True:
@@ -28,5 +28,4 @@ while True:
     else:
         teade = msgbox("Sinu kulud kokku: " + str(sum(n)) + " eurot") # Väljastab kulud kokku      
         sys.exit() # Lõpetab programmi töö
-        
-
+       
